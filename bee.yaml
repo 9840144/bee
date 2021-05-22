@@ -9,10 +9,10 @@ swap-enable: true
 swap-endpoint: https://goerli.infura.io/v3/37e4bf713ae84cf388c8e732f026b47c
 db-open-files-limit: 200
 ## amount in BZZ below the peers payment threshold when we initiate settlement (default 1000000000000)
-payment-early: 10000
+payment-early: 100000000000
 ## threshold in BZZ where you expect to get paid from your peers (default 10000000000000)
-payment-threshold: 10000
+payment-threshold: 10000000000000
 ## excess debt above payment threshold in BZZ where you disconnect from your peer (default 50000000000000)
-payment-tolerance: 50000
+payment-tolerance: 50000000000000
 ## initial deposit if deploying a new chequebook (default 100000000000000000)
-# swap-initial-deposit: 100000000000000000
+swap-initial-deposit: 10000000000000000
